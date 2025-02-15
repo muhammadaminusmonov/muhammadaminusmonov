@@ -2,5 +2,5 @@
 Currently I am a student in PDP university
 I am learning in Software Engineering faculthy
 
-<p> Netlify account: </p> <a> https://app.netlify.com/teams/muhammadamin633/sites </a> 
-<p> Reach me: </p> <a> muhammadamincoder@gmail.com </a> 
+<a> <p> Netlify account: </p> https://app.netlify.com/teams/muhammadamin633/sites </a> 
+<a> <p> Reach me: </p>  muhammadamincoder@gmail.com </a> 
