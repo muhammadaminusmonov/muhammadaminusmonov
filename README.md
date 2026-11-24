@@ -1,8 +1,6 @@
 <div align="center">
 
-<img src="./assets/hero.svg" width="100%" alt="Muhammadamin Usmonov — terminal intro"/>
-
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=2800&pause=900&color=00E5A0&center=true&vCenter=true&width=720&lines=I+ship+software+that+runs+a+real+industrial+company;Cameras+%E2%86%92+scales+%E2%86%92+accounting%2C+fully+automatic;AI+agents+that+answer+from+live+business+data;Built+an+HTTP+server+from+raw+sockets.+It+beat+nginx." alt="typing"/></a>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=2800&pause=900&color=00E5A0&center=true&vCenter=true&width=720&lines=Hi%2C+I%27m+Muhammadamin+%F0%9F%91%8B;Python+backend+%2B+AI+engineer;AI+agents+that+answer+from+live+business+data;Built+an+HTTP+server+from+raw+sockets.+It+beat+nginx." alt="typing"/></a>
 
 [![Website](https://img.shields.io/badge/muhammadaminusmonov.uz-0d1117?style=for-the-badge&logo=googlechrome&logoColor=00e5a0)](https://muhammadaminusmonov.uz)&nbsp;[![Email](https://img.shields.io/badge/Email-0d1117?style=for-the-badge&logo=gmail&logoColor=38bdf8)](mailto:muhammadamincoder@gmail.com)&nbsp;![Open to work](https://img.shields.io/badge/open_to-interesting_problems-0d1117?style=for-the-badge&logo=rocket&logoColor=a78bfa)&nbsp;<img src="https://komarev.com/ghpvc/?username=muhammadaminusmonov&style=for-the-badge&color=0d1117&label=VIEWS" alt="views"/>
 
@@ -13,26 +11,6 @@
 <div align="center">
 <img src="./assets/numbers.svg" width="100%" alt="572 merged PRs · 4,192 contributions · 64k req/s · 78 repos"/>
 </div>
-
-## 🏭 What I'm shipping right now
-
-A production ERP for an industrial company in Uzbekistan — **not a pet project, people run their day on it.**
-
-```text
-  truck / wagon arrives ─▶ cameras read the number ─▶ weighbridge weighs it
-           │                                                   │
-           ▼                                                   ▼
-   live dashboards for 14 roles  ◀──  sale is booked  ──▶  accounting system synced
-           │
-           ▼
-   AI coworker in Telegram: "how much did we sell today, and to whom?" → answers from live data
-```
-
-- 📷 **Computer vision in the field** — plate & wagon-number reading on gate and scale cameras across several branches
-- ⚖️ **Weighbridge integration** — no one types weights by hand anymore
-- 🔄 **Two-way sync with a legacy accounting database**, with retry queues so nothing gets lost when it goes down
-- 🤖 **AI coworker** for management — Telegram bot + mini app, charts and files straight into the chat
-- 🚀 **572 merged pull requests**, own CI/CD, self-hosted Linux server, Docker, zero-drama releases
 
 ## ⚔️ Featured work
 
@@ -104,9 +82,9 @@ Multi-vendor marketplace for Uzbekistan — food, grocery, pharmacy, parcels.
 
 ```yaml
 backend:   FastAPI · Django/DRF · async SQLAlchemy · Alembic · Pydantic
-data:      PostgreSQL · Redis · RabbitMQ · Firebird (legacy accounting)
+data:      PostgreSQL · Redis · RabbitMQ
 ai:        LLM agents · RAG · LangChain · Claude/OpenAI APIs · YOLO · OpenCV
-ops:       Docker Compose · GitHub Actions · self-hosted Ubuntu · Cloudflare · MikroTik VPN
+ops:       Docker Compose · GitHub Actions · self-hosted Ubuntu
 habits:    tests before merge · one change, one release · measure before claiming
 ```
 
