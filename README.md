@@ -1,98 +1,131 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=header&text=Hi%20there,%20I'm%20Muhammadamin!%20👋&fontSize=30&fontAlignY=35&animation=twinkling&fontColor=white" alt="header"/>
+
+<img src="./assets/hero.svg" width="100%" alt="Muhammadamin Usmonov — terminal intro"/>
+
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=2800&pause=900&color=00E5A0&center=true&vCenter=true&width=720&lines=I+ship+software+that+runs+a+real+industrial+company;Cameras+%E2%86%92+scales+%E2%86%92+accounting%2C+fully+automatic;AI+agents+that+answer+from+live+business+data;Built+an+HTTP+server+from+raw+sockets.+It+beat+nginx." alt="typing"/></a>
+
+[![Website](https://img.shields.io/badge/muhammadaminusmonov.uz-0d1117?style=for-the-badge&logo=googlechrome&logoColor=00e5a0)](https://muhammadaminusmonov.uz)&nbsp;[![Email](https://img.shields.io/badge/Email-0d1117?style=for-the-badge&logo=gmail&logoColor=38bdf8)](mailto:muhammadamincoder@gmail.com)&nbsp;![Open to work](https://img.shields.io/badge/open_to-interesting_problems-0d1117?style=for-the-badge&logo=rocket&logoColor=a78bfa)&nbsp;<img src="https://komarev.com/ghpvc/?username=muhammadaminusmonov&style=for-the-badge&color=0d1117&label=VIEWS" alt="views"/>
+
 </div>
 
-<!-- Introduction -->
-## 👨‍💻 About Me
+<br/>
 
-```yaml
-Name: Usmonov Muhammadamin
-📍 Location: Tashkent, Uzbekistan 🇺🇿
-🎓 Education: PDP University - Software Engineering
-💻 Focus: Python Development | OOP | Web Applications
-🌱 Currently Learning: Advanced Python, System Design, AI/ML
-✨ Passionate About: Clean Code, Problem Solving & Building Impactful Software
+<div align="center">
+<img src="./assets/numbers.svg" width="100%" alt="572 merged PRs · 4,192 contributions · 64k req/s · 78 repos"/>
+</div>
+
+## 🏭 What I'm shipping right now
+
+A production ERP for an industrial company in Uzbekistan — **not a pet project, people run their day on it.**
+
+```text
+  truck / wagon arrives ─▶ cameras read the number ─▶ weighbridge weighs it
+           │                                                   │
+           ▼                                                   ▼
+   live dashboards for 14 roles  ◀──  sale is booked  ──▶  accounting system synced
+           │
+           ▼
+   AI coworker in Telegram: "how much did we sell today, and to whom?" → answers from live data
 ```
 
----
+- 📷 **Computer vision in the field** — plate & wagon-number reading on gate and scale cameras across several branches
+- ⚖️ **Weighbridge integration** — no one types weights by hand anymore
+- 🔄 **Two-way sync with a legacy accounting database**, with retry queues so nothing gets lost when it goes down
+- 🤖 **AI coworker** for management — Telegram bot + mini app, charts and files straight into the chat
+- 🚀 **572 merged pull requests**, own CI/CD, self-hosted Linux server, Docker, zero-drama releases
 
-## 🚀 Featured Projects
+## ⚔️ Featured work
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### ⚡ [rawttp](https://github.com/muhammadaminusmonov/custom_http_server)
+HTTP/1.1 server from **raw TCP sockets + asyncio**, no frameworks, no dependencies.
+**64,049 req/s — faster than nginx** (62,758) under 200 concurrent threads.
+
+![](https://img.shields.io/badge/asyncio-3776AB?style=flat-square&logo=python&logoColor=white) ![](https://img.shields.io/badge/sockets-0d1117?style=flat-square) ![](https://img.shields.io/badge/JMeter_bench-D22128?style=flat-square&logo=apachejmeter&logoColor=white)
+
+</td>
+<td width="50%" valign="top">
+
+### 🤖 [multi_agent_bi](https://github.com/muhammadaminusmonov/multi_agent_bi)
+Ask business questions in plain language — a team of **LangChain agents** plans the query, analyses the data, writes the insight.
+
+![](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white) ![](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) ![](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 🍽️ [BitePlate](https://github.com/muhammadaminusmonov/biteplate)
+Restaurant system as a modular monolith: **RabbitMQ events, outbox, idempotent consumers, optimistic + pessimistic locking, Redis rate limiting**.
+
+![](https://img.shields.io/badge/RabbitMQ-FF6600?style=flat-square&logo=rabbitmq&logoColor=white) ![](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white) ![](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+
+</td>
+<td width="50%" valign="top">
+
+### 📱 [e-com_agent](https://github.com/muhammadaminusmonov/e-com_agent)
+**Conversational AI sales agent** — chats with the customer, picks the right iPhone, walks them to checkout.
+
+![](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB) ![](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) ![](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 👁️ [human_monitor_bi](https://github.com/muhammadaminusmonov/human_monitor_bi)
+Smart-camera BI: **YOLO + OpenCV** turn video into human-activity analytics.
+
+![](https://img.shields.io/badge/YOLO-00FFFF?style=flat-square&logo=yolo&logoColor=black) ![](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white)
+
+</td>
+<td width="50%" valign="top">
+
+### 🛒 [Bozor24](https://github.com/muhammadaminusmonov/Bozor24)
+Multi-vendor marketplace for Uzbekistan — food, grocery, pharmacy, parcels.
+
+![](https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white) ![](https://img.shields.io/badge/DRF-A30000?style=flat-square&logo=django&logoColor=white)
+
+</td>
+</tr>
+</table>
+
+<sub>Also: <a href="https://github.com/muhammadaminusmonov/distributed_rate_limiter">distributed_rate_limiter</a> · <a href="https://github.com/muhammadaminusmonov/lost_laptop">lost_laptop</a> · <a href="https://github.com/muhammadaminusmonov/hotel-booking">hotel-booking</a> · <a href="https://github.com/muhammadaminusmonov/movie_ticket_system">movie_ticket_system</a> · <a href="https://github.com/muhammadaminusmonov/edu_crm">edu_crm</a></sub>
+
+## 🧰 Toolbox
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=python,fastapi,django,postgres,redis,rabbitmq,react,ts,docker,nginx,linux,githubactions,opencv,git&perline=8&theme=dark" />
+</p>
+
+```yaml
+backend:   FastAPI · Django/DRF · async SQLAlchemy · Alembic · Pydantic
+data:      PostgreSQL · Redis · RabbitMQ · Firebird (legacy accounting)
+ai:        LLM agents · RAG · LangChain · Claude/OpenAI APIs · YOLO · OpenCV
+ops:       Docker Compose · GitHub Actions · self-hosted Ubuntu · Cloudflare · MikroTik VPN
+habits:    tests before merge · one change, one release · measure before claiming
+```
+
+## 📈 Activity
+
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=muhammadaminusmonov&theme=tokyonight&hide_border=true&background=0d1117&ring=00e5a0&fire=fbbf24&currStreakLabel=00e5a0" />
+</p>
+<p align="center">
+  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=muhammadaminusmonov&bg_color=0d1117&color=38bdf8&line=00e5a0&point=a78bfa&area=true&area_color=00e5a0&hide_border=true" />
+</p>
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/muhammadaminusmonov/muhammadaminusmonov/output/snake-dark.svg" />
+    <img alt="snake eating my contributions" src="https://raw.githubusercontent.com/muhammadaminusmonov/muhammadaminusmonov/output/snake.svg" />
+  </picture>
+</p>
 
 <div align="center">
-
-| Project | Description | Tech Stack |
-|---------|-------------|------------|
-| [**Bozor24**](https://github.com/muhammadaminusmonov/Bozor24) | 🛒 E-commerce platform with Python backend | `Python` `Backend` `API` |
-| [**multi_agent_bi**](https://github.com/muhammadaminusmonov/multi_agent_bi) | 🤖 Multi-agent business intelligence system | `Python` `AI` `Agents` |
-| [**movie_ticket_system**](https://github.com/muhammadaminusmonov/movie_ticket_system) | 🎬 Cinema booking & management system | `Python` `OOP` `CLI` |
-| [**custom_http_server**](https://github.com/muhammadaminusmonov/custom_http_server) | 🌐 Lightweight HTTP server from scratch | `Python` `Networking` `Socket` |
-| [**lost_laptop**](https://github.com/muhammadaminusmonov/lost_laptop) | 🔍 Device tracking & recovery utility | `Python` `Security` `Utilities` |
-
-</div>
-
----
-
-## 🛠️ Tech Stack & Expertise
-
-<div>
-
-### 🐍 Core Language: <img src="https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="python"/>
-
-### 🏗️ Frameworks: <img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white" alt="django"/> <img src="https://img.shields.io/badge/Django_REST_Framework-092E20?style=for-the-badge&logo=django&logoColor=white" alt="drf"/> <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" alt="fastapi"/>
-
-### 🗄️ Databases & Cache: <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" alt="postgresql"/> <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="mysql"/> <img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white" alt="redis"/>
-
-### 📦 Essential Libraries: <img src="https://img.shields.io/badge/SQLAlchemy-D71F00?style=for-the-badge&logo=python&logoColor=white" alt="sqlalchemy"/> <img src="https://img.shields.io/badge/Alembic-092E20?style=for-the-badge&logo=python&logoColor=white" alt="alembic"/> <img src="https://img.shields.io/badge/Pydantic-E92063?style=for-the-badge&logo=python&logoColor=white" alt="pydantic"/> <img src="https://img.shields.io/badge/Pillow-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="pillow"/> <img src="https://img.shields.io/badge/SimpleJWT-009688?style=for-the-badge&logo=python&logoColor=white" alt="simplejwt"/>
-
-### 🚀 DevOps & Tooling: <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="docker"/> <img src="https://img.shields.io/badge/Docker_Compose-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="docker-compose"/> <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white" alt="github-actions"/> <img src="https://img.shields.io/badge/Makefile-092E20?style=for-the-badge&logo=gnu&logoColor=white" alt="make"/> <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="git"/>
-
-</div>
-
-### 💡 Core Competencies
-<div align="center">
-
-| Area | Skills |
-|------|--------|
-| 🔌 **API Design** | RESTful Services, JWT Auth, Versioning, Documentation (Swagger/OpenAPI) |
-| 🏗️ **System Design** | Microservices, Event-Driven Architecture, Scalability Patterns |
-| ⚡ **Async I/O** | asyncio, aiohttp, async SQLAlchemy, Non-blocking Operations |
-| 🧱 **Clean Architecture** | Layered Design, Dependency Injection, SOLID Principles, DDD |
-| 🌐 **Distributed Systems** | Task Queues, Caching Strategies, Consistency Models, Resilience |
-
-</div>
-
----
-
-## 🏆 Achievements & Badges
-
-<div align="center">
-
-[![GitHub Achievements](https://github-profile-trophy.vercel.app/?username=muhammadaminusmonov&theme=darkhub&no-frame=true&row=1&column=4)](https://github.com/muhammadaminusmonov)
-
-</div>
-
----
-
-## 📬 Let's Connect
-
-<div align="center">
-
-[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:muhammadamincoder@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/muhammadaminusmonov)
-[![Netlify](https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)](https://app.netlify.com/teams/muhammadamin633/sites)
-
-</div>
-
-> 💡 *"Code is like humor. When you have to explain it, it's bad."* – Cory House
-
----
-
-<!-- Footer -->
-<div align="center">
-
-### ⭐ Thanks for visiting my profile! 
-*Feel free to explore my repositories and let's build something amazing together.* 🚀
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer" alt="footer"/>
-
+<sub>Tashkent 🇺🇿 · PDP University, Software Engineering · built with too much coffee and <code>git push</code></sub>
 </div>

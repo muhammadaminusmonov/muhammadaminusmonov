@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="888" height="132" viewBox="0 0 888 132" role="img" aria-label="572 merged PRs, 4,192 contributions, 64k req/s, 78 repos">
+<g opacity="0"><animate attributeName="opacity" to="1" begin="0.2s" dur="0.6s" fill="freeze"/>
+  <rect x="6" y="6" width="210" height="120" rx="12" fill="#0d1117" stroke="#00e5a0" stroke-opacity="0.55"/>
+  <rect x="26" y="6" width="170" height="3" rx="1.5" fill="#00e5a0"/>
+  <text x="111.0" y="62" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','SF Mono',Consolas,Menlo,monospace" font-size="38" font-weight="700" fill="#00e5a0">572</text>
+  <text x="111.0" y="88" text-anchor="middle" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13" fill="#9da7b3"><tspan x="111.0" dy="0">merged pull requests</tspan></text>
+</g>
+<g opacity="0"><animate attributeName="opacity" to="1" begin="0.38s" dur="0.6s" fill="freeze"/>
+  <rect x="228" y="6" width="210" height="120" rx="12" fill="#0d1117" stroke="#38bdf8" stroke-opacity="0.55"/>
+  <rect x="248" y="6" width="170" height="3" rx="1.5" fill="#38bdf8"/>
+  <text x="333.0" y="62" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','SF Mono',Consolas,Menlo,monospace" font-size="38" font-weight="700" fill="#38bdf8">4,192</text>
+  <text x="333.0" y="88" text-anchor="middle" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13" fill="#9da7b3"><tspan x="333.0" dy="0">contributions in the</tspan><tspan x="333.0" dy="17">last year</tspan></text>
+</g>
+<g opacity="0"><animate attributeName="opacity" to="1" begin="0.56s" dur="0.6s" fill="freeze"/>
+  <rect x="450" y="6" width="210" height="120" rx="12" fill="#0d1117" stroke="#fbbf24" stroke-opacity="0.55"/>
+  <rect x="470" y="6" width="170" height="3" rx="1.5" fill="#fbbf24"/>
+  <text x="555.0" y="62" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','SF Mono',Consolas,Menlo,monospace" font-size="38" font-weight="700" fill="#fbbf24">64k</text>
+  <text x="555.0" y="88" text-anchor="middle" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13" fill="#9da7b3"><tspan x="555.0" dy="0">req/s from a server</tspan><tspan x="555.0" dy="17">built on raw sockets</tspan></text>
+</g>
+<g opacity="0"><animate attributeName="opacity" to="1" begin="0.74s" dur="0.6s" fill="freeze"/>
+  <rect x="672" y="6" width="210" height="120" rx="12" fill="#0d1117" stroke="#a78bfa" stroke-opacity="0.55"/>
+  <rect x="692" y="6" width="170" height="3" rx="1.5" fill="#a78bfa"/>
+  <text x="777.0" y="62" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','SF Mono',Consolas,Menlo,monospace" font-size="38" font-weight="700" fill="#a78bfa">78</text>
+  <text x="777.0" y="88" text-anchor="middle" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13" fill="#9da7b3"><tspan x="777.0" dy="0">public repositories</tspan></text>
+</g>
+</svg>
